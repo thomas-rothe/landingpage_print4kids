@@ -1,19 +1,105 @@
+/* ubuntu-300 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/ubuntu-v20-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("./assets/ubuntu-v20-latin-300.eot?#iefix") format("embedded-opentype"), url("./assets/ubuntu-v20-latin-300.woff2") format("woff2"), url("./assets/ubuntu-v20-latin-300.woff") format("woff"), url("./assets/ubuntu-v20-latin-300.ttf") format("truetype"), url("./assets/ubuntu-v20-latin-300.svg#Ubuntu") format("svg");
+  /* Legacy iOS */ }
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/ubuntu-v20-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("./assets/ubuntu-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/ubuntu-v20-latin-regular.woff2") format("woff2"), url("./assets/ubuntu-v20-latin-regular.woff") format("woff"), url("./assets/ubuntu-v20-latin-regular.ttf") format("truetype"), url("./assets/ubuntu-v20-latin-regular.svg#Ubuntu") format("svg");
+  /* Legacy iOS */ }
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/ubuntu-v20-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("./assets/ubuntu-v20-latin-700.eot?#iefix") format("embedded-opentype"), url("./assets/ubuntu-v20-latin-700.woff2") format("woff2"), url("./assets/ubuntu-v20-latin-700.woff") format("woff"), url("./assets/ubuntu-v20-latin-700.ttf") format("truetype"), url("./assets/ubuntu-v20-latin-700.svg#Ubuntu") format("svg");
+  /* Legacy iOS */ }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    max-width: 100%; } }
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%; } }
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 576px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+@media (min-width: 768px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+@media (min-width: 992px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+@media (min-width: 1200px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+.col-xs-12 {
+  float: left;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  min-height: 1px; }
+
 body {
-  background-color: #eaeaea; }
+  background-color: #eaeaea;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px; }
 
 h1 {
   font-size: 3rem;
   color: #2fb5d2;
-  margin: 20px 0 20px 0; }
+  margin: 20px 0 20px 0;
+  font-family: 'Ubuntu'; }
 
 h2 {
   margin: 15px 0 15px 0;
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-family: 'Ubuntu'; }
 
 p, li, a {
   font-size: .9375rem;
   color: #7a7a7a;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: 'Ubuntu'; }
   p a, li a, a a {
     font-weight: 600; }
     p a:hover, li a:hover, a a:hover {
