@@ -149,6 +149,31 @@ p, li, a {
 .row {
   margin-top: 30px;
   margin-bottom: 30px;
+
+  &.flex {
+    display: flex;
+    flex-flow: row nowrap;
+    .col-6 {
+      display: flex;
+      flex: 0 0 50%;
+
+      &.social-link {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        a {
+          display: flex;
+          align-items: center;
+          padding: 10px 15px;
+
+          img {
+            max-width: 50px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
 }
 .content-wrapper {
   background-color: #FFFFFF;
